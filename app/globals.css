@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+
+  .flex-between {
+    @apply flex items-center justify-between;
+  }
+
+  .flex-start {
+    @apply flex items-center justify-start;
+  }
+
+  .flex-end {
+    @apply flex items-center justify-end;
+  }
+
+  .vertical-center {
+    @apply flex items-center justify-center flex-col;
+  }
+
+  .vertical-between {
+    @apply flex items-center justify-between flex-col;
+  }
+
+  .vertical-start {
+    @apply flex items-center justify-start flex-col;
+  }
+
+  .vertical-end {
+    @apply flex items-center justify-end flex-col;
+  }
+
+  .base-12 {
+    @apply text-[12px] leading-[13.2px];
+  }
+
+  .medium-12 {
+    @apply text-[12px] leading-[13.2px] font-medium;
+  }
+
+  .base-14 {
+    @apply text-[14px] leading-[15.4px];
+  }
+
+  .medium-16 {
+    @apply text-[16px] leading-[17.6px] font-medium;
+  }
+
+  .base-18 {
+    @apply text-[18px] leading-[25.2px];
+  }
+
+  .medium-18 {
+    @apply text-[16px] leading-[22.4px] sm:text-[18px] sm:leading-[25.2px] font-medium;
+  }
+
+  .base-20 {
+    @apply text-[16px] leading-[17.6px] sm:text-[20px] sm:leading-[22px];
+  }
+
+  .medium-20 {
+    @apply text-[16px] leading-[17.6px] sm:text-[20px] sm:leading-[22px] font-medium;
+  }
+
+  .base-24 {
+    @apply text-[24px] leading-[26.4px];
+  }
+
+  .semibold-24 {
+    @apply text-[24px] leading-[26.4px] font-semibold;
+  }
+
+  .semibold-40 {
+    @apply text-[30px] leading-[40px] sm:text-[40px] sm:leading-[40px] font-semibold;
+  }
+
+  .serif-heading {
+    @apply text-[40px] leading-[40px] font-serif;
+  }
+
+  .hero-heading {
+    @apply text-[48px] leading-[48px] sm:text-[60px] sm:leading-[60px] lg:text-[80px] lg:leading-[80px] font-serif mt-5 text-center  xl:text-start;
+  }
+
+  .homepage-content-max-width {
+    @apply max-w-3xl xl:max-w-[77.5rem];
+  }
+
+  .drinkpage-content-max-width {
+    @apply max-w-xl xl:max-w-[90rem];
+  }
+
+  .orange-heading {
+    @apply text-[14px] leading-[15.4px] sm:text-[16px] sm:leading-[17.6px] font-medium text-orange-light;
+  }
+
+  .screen-center {
+    @apply px-5 h-screen w-screen flex items-center justify-center text-center;
+  }
+
+  .custom-button {
+    @apply cursor-pointer transition duration-200 hover:opacity-80;
+  }
+}
