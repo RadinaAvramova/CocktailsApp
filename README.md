@@ -12,8 +12,6 @@ Cocktail Explorer is a mobile application that allows users to browse a list of 
 - [Features](#features)
 - [Design Patterns](#design-patterns)
 - [Screenshots](#screenshots)
-- [Technologies Used](#technologies-used)
-- [Contact Information](#contact-information)
 - [Resources](#resources)
 
 ## Installation
@@ -167,10 +165,6 @@ This project uses [TheCocktailDB API](https://www.thecocktaildb.com/api.php) to 
 ### Carousel showing popular drinks
 
 <img src="public/readme-screenshots/not-found.png" alt="Image displaying the not found page" width="1000">
-
-### Technologies Used
-
-![My Skills](https://skillicons.dev/icons?i=ts,react,next,tailwind,nodejs,github,vercel,figma)
 
 ## Resources:
 
