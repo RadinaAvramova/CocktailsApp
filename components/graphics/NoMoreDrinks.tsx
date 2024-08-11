@@ -12,7 +12,7 @@ const NoMoreDrinks = () => {
         "
       />
       <figcaption>
-        <p className="medium-20 ">Alas! No more drinks available</p>
+        <p className="medium-20 "> No more drinks available!</p>
       </figcaption>
     </figure>
   );
